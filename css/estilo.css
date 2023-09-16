@@ -124,7 +124,9 @@ align-items: center;
     font-weight: 800;
     border:none;
 }
-.parrafo_sub
+.parrafo_sub{
+    text-align: center;
+}
 }
 
 

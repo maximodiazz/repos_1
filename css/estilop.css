@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-nav{
+    justify-content:space-evenly;
+    width: 100%;
+    --bs-nav-link-hover-color: rgb(255 255 255);
+    height:200px;
+}
+
+
+.d-inline-block{
+    margin-left:20px;
+}   
+
+.container-fluid{
+    background-color: rgba(0, 0, 0, 0.616);
+    height:100px;
+}
+
+main{
+    display: flex;
+   background-image:linear-gradient(to bottom,rgb(10, 10, 10),rgb(70, 172, 45) );
+
+}
