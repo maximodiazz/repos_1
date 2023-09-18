@@ -73,11 +73,30 @@ h2{
   align-items: center;
 }
 footer{
-    height:70px;
+    height:60px;
 
 }
 .fter{
     display: flex;
     height:100%;
     background-color: rgb(29, 29, 29);
+    justify-content: center;
+    align-items: center;
+}
+.bi{
+font-size:40px;
+width: 10%;
+transition: 800ms;
+}
+.bi-instagram:hover{
+    color: rgb(225, 0, 255);
+}
+.bi-facebook:hover{
+color:rgb(58, 89, 146);
+}
+.bi-twitter:hover{
+    color: rgb(29 161 242);
+}
+.bi-whatsapp:hover{
+    color:green;
 }
