@@ -86,7 +86,7 @@ footer{
 .bi{
 font-size:40px;
 width: 10%;
-transition: 800ms;
+transition: 400ms;
 }
 .bi-instagram:hover{
     color: rgb(225, 0, 255);
@@ -99,4 +99,101 @@ color:rgb(58, 89, 146);
 }
 .bi-whatsapp:hover{
     color:green;
+}
+@media only screen and (max-width:600px){
+    
+    .navbar-nav{
+        justify-content:space-evenly;
+        width:100%;
+        --bs-nav-link-hover-color: rgb(255 255 255);
+    }
+     .d-inline-block{
+        margin-left:20px;
+    }   
+     main{
+        display: flex;
+       height:700px;
+       background-image:url(../mult/wepik-export-20230917130825GAGn.png);
+    background-size: cover;
+    }
+    .divmain{
+        display: grid;
+        height: 100%;
+        width: 100%;
+        background-color:rgba(0, 0, 0, 0.781);
+       grid-template-columns:95%;
+        grid-template-rows:1fr 1fr 2fr 2fr;
+        grid-template-areas:"a1"
+                            "a2"
+                            "a3"
+                            "a4";
+    justify-content: center;
+    align-content: space-evenly;
+    justify-items:center;
+    align-items: center;
+    }
+    .parra1{
+        text-align: center;
+        font-size:19px;
+        width:100%;
+        color: rgb(226, 222, 222);
+        }
+    h1{
+        color: white;
+        width:80%;
+        text-align:start;
+    }
+    h2{
+        font-size:25px;
+        color: white;
+        background-color: rgba(80, 80, 80, 0.356);
+        width:40%;
+        height:30%;
+        border-left:solid white 1px;
+        padding-left:5px;
+        justify-self: self-start;
+        }
+    .btn{
+     font-size: larger;
+     width:70%;
+     font-weight: 600;
+     height:50%;
+    
+    }
+    .boton1{
+        display: flex;
+        width:80%;
+        justify-content: center;
+        height:100px;
+      align-self: self-start;
+      align-items: center;
+    }
+    footer{
+        height:60px;
+    
+    }
+    .fter{
+        display: flex;
+        height:100%;
+        background-color: rgb(29, 29, 29);
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .bi{
+    font-size:40px;
+    width: 10%;
+    transition: 400ms;
+    }
+    .bi-instagram:hover{
+        color: rgb(225, 0, 255);
+    }
+    .bi-facebook:hover{
+    color:rgb(58, 89, 146);
+    }
+    .bi-twitter:hover{
+        color: rgb(29 161 242);
+    }
+    .bi-whatsapp:hover{
+        color:green;
+    }
 }
