@@ -7,6 +7,7 @@
     justify-content:space-evenly;
     width: 100%;
     --bs-nav-link-hover-color: rgb(255 255 255);
+    font-size:20px;
 }
 
 
@@ -44,9 +45,13 @@ align-items: center;
     font-size:19px;
     width:50%;
     color: rgb(226, 222, 222);
+    animation:fadeInLeft;
+    animation-duration: 800ms;
     }
 h1{
     color: white;
+    animation:fadeInLeft;
+    animation-duration: 800ms;
 }
 h2{
     font-size:25px;
@@ -56,12 +61,16 @@ h2{
     height:30%;
     border-left:solid white 1px;
     padding-left:5px;
+    animation:fadeInLeft;
+    animation-duration: 800ms;
     }
 .btn{
  font-size: larger;
  width:70%;
  font-weight: 600;
  height:50%;
+animation:bounceInUp ; 
+animation-duration: 1s;
 
 }
 .boton1{
@@ -89,7 +98,7 @@ width: 10%;
 transition: 400ms;
 }
 .bi-instagram:hover{
-    color: rgb(225, 0, 255);
+    color: rgb(218, 75, 236);
 }
 .bi-facebook:hover{
 color:rgb(58, 89, 146);
@@ -185,7 +194,7 @@ color:rgb(58, 89, 146);
     transition: 400ms;
     }
     .bi-instagram:hover{
-        color: rgb(225, 0, 255);
+        color: rgb(218, 75, 236);
     }
     .bi-facebook:hover{
     color:rgb(58, 89, 146);
